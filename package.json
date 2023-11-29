@@ -1,14 +1,14 @@
 {
   "name": "charity_fe",
   "version": "1.0.0",
-  "homepage": "https://caoqui.github.io/charity/",
+  "homepage": "https://caoqui.github.io/charity_dapp_near/",
   "license": "(MIT AND Apache-2.0)",
   "scripts": {
     "start": "./start.sh",
     "build": "parcel build index.html --public-url ./",
+    "build2": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build2": "react-scripts build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -40,6 +40,7 @@
     "@near-wallet-selector/core": "^8.1.4",
     "@near-wallet-selector/modal-ui": "^8.1.4",
     "@near-wallet-selector/my-near-wallet": "^8.1.4",
+    "gh-pages": "^6.1.0",
     "near-api-js": "^2.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

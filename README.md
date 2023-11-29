@@ -1,0 +1,1 @@
+# charity_dapp_near

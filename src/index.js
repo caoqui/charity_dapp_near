@@ -19,10 +19,13 @@ window.onload = async () => {
 
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
-    <App
-      isSignedIn={isSignedIn}
-      contractId={CONTRACT_ADDRESS}
-      wallet={wallet}
-    />
+    <div>
+      <h2>Dashboard</h2>
+      <App
+        isSignedIn={isSignedIn}
+        contractId={CONTRACT_ADDRESS}
+        wallet={wallet}
+      />
+    </div>
   );
 };

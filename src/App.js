@@ -1,5 +1,5 @@
 
-import '../public/assets/global.css';
+import './public/assets/global.css';
 
 import { SignInPrompt, SignOutButton } from './ui-components';
 

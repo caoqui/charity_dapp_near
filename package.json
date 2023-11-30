@@ -1,14 +1,10 @@
 {
   "name": "charity_fe",
   "version": "1.0.0",
-  "homepage": "https://caoqui.github.io/charity_dapp_near/",
   "license": "(MIT AND Apache-2.0)",
   "scripts": {
     "start": "./start.sh",
-    "build": "parcel build ./public/index.html --public-url ./",
-    "build2": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build ./public/index.html --public-url ./"
   },
   "devDependencies": {
     "@babel/core": "^7.23.5",
